@@ -1,0 +1,27 @@
+{
+  "name": "pepsico",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy:dev": "gulp deploy:dev",
+    "deploy:prod": "gulp deploy:prod",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/formio/pepsico.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/formio/pepsico/issues"
+  },
+  "homepage": "https://gitlab.com/formio/pepsico#readme",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "gulp": "^4.0.2",
+    "gulp-cloudfront-invalidate": "^0.1.5",
+    "gulp-s3": "^0.11.0"
+  }
+}
